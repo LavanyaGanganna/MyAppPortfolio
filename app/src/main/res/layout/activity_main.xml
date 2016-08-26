@@ -20,53 +20,52 @@
         android:text="@string/app_title"
         android:textSize="@dimen/title_size"
         android:textStyle="bold"/>
-    <Button android:layout_width="@dimen/button_width"
-            android:layout_height="@dimen/button_height"
-            android:background="#FF8F00"
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c0c0c0"/>
+
+    <Button
+        style="@style/CodeFont"
             android:id="@+id/movieapp_button"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
             android:text="@string/movie_app"
-            android:layout_gravity="center"
-            android:fontFamily="sans-serif" android:textStyle="bold"/>
-    <Button android:layout_width="@dimen/button_width"
-            android:layout_height="@dimen/button_height"
-            android:background="#FF8F00"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:fontFamily="sans-serif"/>
+
+
+    <Button
+            style="@style/CodeFont"
             android:text="@string/stock_app"
             android:id="@+id/stockhawk_button"
-            android:layout_gravity="center_horizontal"
-            android:fontFamily="sans-serif" android:textStyle="bold"/>
-    <Button android:layout_width="@dimen/button_width"
-            android:layout_height="@dimen/button_height"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:background="#FF8F00"
-            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif" />
+
+
+    <Button
+            style="@style/CodeFont"
             android:text="@string/buildbigger_app"
             android:id="@+id/buildbigger_button"
-            android:fontFamily="sans-serif" android:textStyle="bold"/>
-    <Button android:layout_width="@dimen/button_width"
-            android:layout_height="@dimen/button_height"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:background="#FF8F00"
-            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif" />
+
+
+    <Button
+            style="@style/CodeFont"
             android:text="@string/materialdesign_app"
             android:id="@+id/materialdesign_button"
-            android:fontFamily="sans-serif" android:textStyle="bold"/>
-    <Button android:layout_width="@dimen/button_width"
-            android:layout_height="@dimen/button_height"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:background="#FF8F00"
-            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif" />
+
+
+    <Button
+            style="@style/CodeFont"
             android:text="@string/ubiquitious_app"
             android:id="@+id/ubiquitious_button"
-            android:fontFamily="sans-serif" android:textStyle="bold"/>
-    <Button android:layout_width="@dimen/button_width"
-            android:layout_height="@dimen/button_height"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:background="#FF8F00"
-            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif" />
+
+
+    <Button
+            style="@style/CodeFont"
             android:text="@string/capstone_app"
             android:id="@+id/capstone_button"
-            android:fontFamily="sans-serif" android:textStyle="bold"/>
+            android:fontFamily="sans-serif"/>
+
+
 </LinearLayout>
 </ScrollView>

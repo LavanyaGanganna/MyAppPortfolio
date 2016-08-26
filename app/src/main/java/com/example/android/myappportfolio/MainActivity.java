@@ -22,38 +22,38 @@ public class MainActivity extends AppCompatActivity {
 		moviebutton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				Toast.makeText(MainActivity.this,"This button will launch my popular movies app",Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this,R.string.button_movie_app_message,Toast.LENGTH_SHORT).show();
 			}
 		});
 		stockbutton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				Toast.makeText(MainActivity.this,"This button will launch my stockhawk app",Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this,R.string.button_stock_hawk_message,Toast.LENGTH_SHORT).show();
 			}
 		});
 		buildbutton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				Toast.makeText(MainActivity.this,"This button will launch my build bigger app",Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this,R.string.button_build_bigger_message,Toast.LENGTH_SHORT).show();
 
 			}
 		});
 		materialbutton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				Toast.makeText(MainActivity.this,"This button will launch my material design app",Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this,R.string.button_material_design_message,Toast.LENGTH_SHORT).show();
 			}
 		});
 		ubiquitiousbutton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				Toast.makeText(MainActivity.this,"This button will launch my Go ubiquitious app",Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this,R.string.button_ubiquitious_message,Toast.LENGTH_SHORT).show();
 			}
 		});
 		capstonebutton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				Toast.makeText(MainActivity.this,"This button will launch my Capstone app",Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this,R.string.button_capstone_message,Toast.LENGTH_SHORT).show();
 			}
 		});
 	}
